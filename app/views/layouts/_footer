@@ -1,5 +1,10 @@
 <footer>
-  <div class="footer-logo">
-
+  <div>
+    <ul>
+      <li><a>lorem ipsum</a></li>
+      <li><a>lorem ipsum</a></li>
+      <li><a>lorem ipsum</a></li>
+      <li><a>lorem ipsum</a></li>
+    </ul>
   </div>
 </footer>
