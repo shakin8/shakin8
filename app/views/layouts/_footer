@@ -1,0 +1,66 @@
+<footer>
+  <div class="pad-top-bottom-medium">
+    <div class="intersecting-line">
+      <div class="intersecting-object">
+        <span class="autobox">
+          <%= link_to image_tag("icons/twitter.jpg", alt: "Twitter"), 'http://twitter.com/sarleks' %>
+          <%= link_to image_tag("icons/facebook.jpg", alt: "Facebook"), '#' %>
+          <%= link_to image_tag("icons/youtube.jpg", alt: "Youtube"), '#' %>
+          <%= link_to image_tag("icons/tumblr.jpg", alt: "Tumblr"), '#' %>
+          <%= link_to image_tag("icons/pinterest.jpg", alt: "Pinterest"), '#' %>
+        </span>
+      </div>
+    </div>
+  </div>
+  
+  <small>
+    <%= link_to "Shakin8 Ltd |", root_path %> 
+    <%= link_to "Sarleks.", root_path %>
+  </small>
+
+  <div class="spacer-small"></div>
+
+  <div class="footer-span depth1 pull-left">
+    <h3>User Information</h3></br>
+    <ul>
+      <li><%= link_to "About Sarleks", about_path %></li>
+      <li><%= link_to "Need Help?", help_path %></li>
+      <li><%= link_to "FAQs", '#' %></li>
+    </ul>
+  </div>
+
+  <div class="footer-span depth1 pull-left">
+    <h3>About Sarleks</h3></br>
+    <ul>
+      <li><%= link_to "The Company", about_path %></li>
+      <li><%= link_to "Affiliates", '#' %></li>
+      <li><%= link_to "Advertising", '#' %></li>
+      <li><%= link_to "Terms & Conditions", '#' %></li>
+    </ul>
+  </div>
+
+  <div class="footer-span depth1 pull-left">
+    <h3>Get Involved!</h3></br>
+    <ul>
+      <li><%= link_to "Sign Up Now!", '#' %></li>
+      <li><%= link_to "Submit Designs", '#' %></li>
+      <li><%= link_to "Score Designs", '#' %></li>
+    </ul>
+  </div>
+
+  <div class="footer-span-wide depth1 pull-left">
+    <h3>Don't Miss Out</h3></br>
+    <ul>
+      <li>
+        <b><%= link_to "Sign Up", '#' %></b> For The Mailing List To Catch Up On All The Latest Submissions And Have Your Views Heard!
+      </li>
+    <%= form_for(:session, url: sessions_path) do |f| %>
+      <%= f.text_field "#", class: "form-input" %>
+      <%= f.submit "Go", class: "button" %>
+    <% end %>  
+    </ul>
+  </div>
+
+  <div class="remove-float"></div>
+
+</footer>

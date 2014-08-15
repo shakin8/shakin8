@@ -1,0 +1,75 @@
+
+/* custom colours  */
+
+$signature-red: #96273B;
+
+/* custom colours end  */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font: 11px Arial,Helvetica,sans-serif;
+  color: rgb(68,68,68);
+  text-align: center;
+  background-color: black;
+  margin:0 auto;
+}
+
+.container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: red;
+}
+
+.pull-left{
+  float: left;
+}
+
+.reset-float{
+  clear: both;
+}
+
+/* Fixed-Header */
+
+header{
+  height: 110px;
+  width: 100%;
+  background-color: blue;
+  margin: none;
+  padding: none;
+  border: none;
+  .logo{
+    width: 245px;
+    height: 110px;
+  }
+  .logo-lines{
+    width: 695px;
+    height: 110px;
+  }
+}
+
+.header-lines{
+  width: 100%;
+}
+
+.fixed-header{  
+  padding: 4px 0px 0px 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white; 
+  top: 0px;
+  left: 0px;
+  line-height: 28px;
+  font-size:12px;; 
+  z-index:994;
+}
+
+footer{
+  background-color: white;
+}
+
+/* Fixed-Header End*/
