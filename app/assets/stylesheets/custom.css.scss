@@ -38,9 +38,9 @@ body{
 header{
   height: 110px;
   width: 100%;
-  background-color: blue;
+  background-color: $signature-red;
   margin: none;
-  padding: none;
+  padding: 20px 20px 20px 20px;
   border: none;
   .logo{
     width: 245px;
@@ -57,7 +57,6 @@ header{
 }
 
 .fixed-header{  
-  padding: 4px 0px 0px 0px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white; 
