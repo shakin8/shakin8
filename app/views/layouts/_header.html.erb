@@ -1,4 +1,17 @@
 <header class="fixed-header">
+  <div class="navigation">
+    <ul>
+      <li><a><%= link_to "contact", "#" %></a></li>
+      <li><a> |</a></li>
+      <li><a>services</a></li>
+      <li><a> |</a></li>
+      <% if signed_in? %>
+        <li><a><%= link_to "my account", current_user %></a></li>
+      <% else %>
+        <li><a><%= link_to "log in", signin_path %></a></li>
+      <% end %>
+    </ul>
+  </div>
   <div class="logo pull-left">
     <%= link_to image_tag("shakin8_logo-245x110.png", alt: "Rails", size: "245x110"), root_path, class: "pull-left"%>
   </div>

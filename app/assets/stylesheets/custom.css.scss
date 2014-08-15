@@ -2,6 +2,9 @@
 /* custom colours  */
 
 $signature-red: #96273B;
+$signature-yellow: #CEA137;
+$signature-dark-grey: #434343;
+$signature-light-grey: #949494;
 
 /* custom colours end  */
 
@@ -12,9 +15,9 @@ $signature-red: #96273B;
 
 body{
   font: 11px Arial,Helvetica,sans-serif;
-  color: rgb(68,68,68);
+  color: white;
   text-align: center;
-  background-color: black;
+  background-color: $signature-dark-grey;
   margin:0 auto;
 }
 
@@ -22,7 +25,7 @@ body{
   width: 940px;
   margin-right: auto;
   margin-left: auto;
-  background-color: red;
+  background-color: $signature-red;
 }
 
 .pull-left{
@@ -33,14 +36,14 @@ body{
   clear: both;
 }
 
-/* Fixed-Header */
+/* Header */
 
 header{
   height: 110px;
   width: 900px;
-  background-color: $signature-red;
+  background-color: none;
   margin: none;
-  padding: 20px 20px 150px 20px;
+  padding: 0px 20px 150px 20px;
   border: none;
   .logo{
     width: 245px;
@@ -67,8 +70,36 @@ header{
   z-index:994;
 }
 
+  .navigation{
+    position: relative;
+    bottom: -65px;
+    text-align: right;
+    overflow: hidden;
+    a{
+      font: 16px Arial,Helvetica,sans-serif;
+      color: white;
+      text-decoration:none;
+    }
+    a:hover, a.on {
+      color: $signature-yellow;
+    }
+    a.selected{
+      color: $signature-light-grey;
+    }
+
+    ul li {
+      display: inline;
+    }
+  }
+
+/* Header end */
+
+/* Footer */
+
 footer{
   background-color: white;
+  height: 400px;
+  width: 100%;
 }
 
-/* Fixed-Header End*/
+/* Footer end */
