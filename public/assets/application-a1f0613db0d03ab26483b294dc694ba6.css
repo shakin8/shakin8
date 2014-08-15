@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* custom colours  */
+/* custom colours end  */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font: 11px Arial,Helvetica,sans-serif;
+  color: #444444;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto; }
+
+.container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: red; }
+
+.pull-left {
+  float: left; }
+
+.reset-float {
+  clear: both; }
+
+/* Fixed-Header */
+header {
+  height: 110px;
+  width: 900px;
+  background-color: #96273b;
+  margin: none;
+  padding: 20px 20px 150px 20px;
+  border: none; }
+  header .logo {
+    width: 245px;
+    height: 110px; }
+  header .logo-lines {
+    width: 655px;
+    height: 110px; }
+
+.header-lines {
+  width: 100%; }
+
+.fixed-header {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  top: 0px;
+  left: 0px;
+  line-height: 28px;
+  font-size: 12px;
+  z-index: 994; }
+
+footer {
+  background-color: white; }
+
+/* Fixed-Header End*/
