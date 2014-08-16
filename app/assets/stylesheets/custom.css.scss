@@ -98,17 +98,29 @@ header{
 /* Footer */
 
 footer{
-  background-color: white;
-  height: 200px;
-  width: 900px;
-  padding: 20px;
-  margin-top: 300px;
-  color: $signature-dark-grey;
-  font: 16px Arial,Helvetica,sans-serif;
-  font-weight: bold;
-  text-align: left;
-  li{
-    list-style-type: none;
+  .top-footer{
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    padding: 20px;
+    margin-top: 300px;
+    color: $signature-dark-grey;
+    font: 16px Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-align: left;
+    li{
+      list-style-type: none;
+    }
+  }
+  .bottom-footer{
+    background-color: $signature-red;
+
+    width: 900px;
+    padding: 20px;
+    color: white;
+    font: 11px Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-align: center;    
   }
 }
 
@@ -127,4 +139,19 @@ web-development-icon{
   height: 260px;
   width: 260px;
   margin: 20px 20px 20px 20px;
+}
+
+.big-icon-labels{
+  width: 940px;
+  height: 30px;
+  text-align: center;
+}
+
+.big-icon-label{
+  margin: 10px 20px 20px 20px;
+  height: 40px;
+  width: 260px;
+  display: inline-block;
+  h1 {
+  }
 }
