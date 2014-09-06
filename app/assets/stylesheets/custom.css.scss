@@ -15,9 +15,9 @@ $signature-light-grey: #949494;
 
 body{
   font: 11px Arial,Helvetica,sans-serif;
+  background-color: $signature-dark-grey;
   color: $signature-red;
   text-align: center;
-  background-color: $signature-dark-grey;
   margin:0 auto;
 }
 
@@ -134,4 +134,14 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin:0px -70px;
+  h1 {
+    position: relative;
+    bottom: -140px;
+    font: 72px Arial bold,Helvetica,sans-serif;
+    color: $signature-red;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: -3px;
+    line-height: 80%;
+  }
 }
