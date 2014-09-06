@@ -1,22 +1,21 @@
-<header class="fixed-header">
+<header>
+  <div class="logo">
+    <%= link_to image_tag("Shakin8logo500x222.png", alt: "Rails", size: "320x142"), root_path %>
+  </div>
   <div class="navigation">
     <ul>
-      <li><a><%= link_to "contact", "#" %></a></li>
-      <li><a> |</a></li>
-      <li><a><%= link_to "services", "#" %></a></li>
-      <li><a> |</a></li>
+      <li><a><%= link_to "Services ", "#" %></a></li>
+      <li><a>  | </a></li>
+      <li><a><%= link_to "Portfolio ", "#" %></a></li>
+      <li><a>  | </a></li>
+      <li><a><%= link_to "Contact ", "#" %></a></li>
+      <li><a>|</a></li>
       <% if signed_in? %>
-        <li><a><%= link_to "my account", current_user %></a></li>
+        <li><a><%= link_to "My Account", current_user %></a></li>
       <% else %>
-        <li><a><%= link_to "log in", signin_path %></a></li>
+        <li><a><%= link_to "Login", signin_path %></a></li>
       <% end %>
     </ul>
-  </div>
-  <div class="logo pull-left">
-    <%= link_to image_tag("shakin8_logo-500x225.png", alt: "Rails", size: "245x110"), root_path, class: "pull-left"%>
-  </div>
-  <div class="logo-lines pull-left">
-    <%= image_tag("shakin8_lines_50x225.png", alt: "Rails", size: "695x110", class: "header-lines") %>
   </div>
   <nav>
   </nav>  

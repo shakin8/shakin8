@@ -17,15 +17,18 @@ body{
   font: 11px Arial,Helvetica,sans-serif;
   color: white;
   text-align: center;
-  background-color: $signature-dark-grey;
+  background-color: white;
   margin:0 auto;
+  background-image: image-url('mainbackgroundimagelowquality.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .container {
   width: 940px;
   margin-right: auto;
   margin-left: auto;
-  background-color: $signature-red;
+  background-color: none;
 }
 
 .pull-left{
@@ -36,72 +39,15 @@ body{
   clear: both;
 }
 
-/* Header */
-
-header{
-  height: 110px;
-  width: 900px;
-  background-color: none;
-  margin: none;
-  padding: 0px 20px 150px 20px;
-  border: none;
-  .logo{
-    width: 245px;
-    height: 110px;
-  }
-  .logo-lines{
-    width: 655px;
-    height: 110px;
-  }
-}
-
-.header-lines{
-  width: 100%;
-}
-
-.fixed-header{  
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: white; 
-  top: 0px;
-  left: 0px;
-  line-height: 28px;
-  font-size:12px;; 
-  z-index:994;
-}
-
-  .navigation{
-    position: relative;
-    bottom: -65px;
-    text-align: right;
-    overflow: hidden;
-    a{
-      font: 16px Arial,Helvetica,sans-serif;
-      color: white;
-      text-decoration:none;
-      font-weight: bold;
-    }
-    a:hover, a.on {
-      color: $signature-yellow;
-    }
-    a.selected{
-      color: $signature-light-grey;
-    }
-
-    ul li {
-      display: inline;
-    }
-  }
-
-/* Header end */
-
 /* Footer */
 
 footer{
+  width: 100%;
+  background-color: $signature-red;
   .top-footer{
-    background-color: white;
-    height: 200px;
-    width: 900px;
+    background-color: none;
+    height: 100px;
+    width: 940px;
     padding: 20px;
     margin-top: 300px;
     color: $signature-dark-grey;
@@ -113,11 +59,11 @@ footer{
     }
   }
   .bottom-footer{
-    background-color: $signature-red;
+    background-color: white;
 
     width: 900px;
     padding: 20px;
-    color: white;
+    color: $signature-red;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
     text-align: center;    
@@ -126,32 +72,46 @@ footer{
 
 /* Footer end */
 
+/* Header */
 
-/* Home icons */
-
-web-development-icon{
-  height: 260px;
+header{
+  height: 110px;
   width: 940px;
-}
-
-.big-icon{
-  display:inline;
-  height: 260px;
-  width: 260px;
-  margin: 20px 20px 20px 20px;
-}
-
-.big-icon-labels{
-  width: 940px;
-  height: 30px;
-  text-align: center;
-}
-
-.big-icon-label{
-  margin: 10px 20px 20px 20px;
-  height: 40px;
-  width: 260px;
-  display: inline-block;
-  h1 {
+  background-color: none;
+  margin: none;
+  padding: 0px 0px 150px 0px;
+  border: none;
+  .logo{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
   }
 }
+
+.navigation{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  a{
+    font: 24px Arial,Helvetica,sans-serif;
+    color: $signature-red;
+    text-decoration:none;
+    font-weight: normal;
+  }
+  a:hover, a.on {
+    color: $signature-yellow;
+  }
+  a.selected{
+    color: $signature-light-grey;
+  }
+
+  ul li {
+    display: inline;
+  }
+}
+
+/* Header end */
+
+
+/* Home */
+
