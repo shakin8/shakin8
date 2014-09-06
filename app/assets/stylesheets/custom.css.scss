@@ -49,14 +49,13 @@ footer{
   position: relative;
   bottom: 100px;
   .top-footer{
+    margin: 0 auto;
     background-color: none;
     height: 100px;
     width: 940px;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     color: $signature-dark-grey;
     font: 16px Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    text-align: left;
     li{
       list-style-type: none;
     }
@@ -66,13 +65,23 @@ footer{
     }
   }
   .bottom-footer{
-    background-color: white;
+    margin: 0 auto;
+    background-color: $signature-red;
     width: 1080px;
     margin:0px auto;
-    color: $signature-dark-grey;
+    color: white;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
-    text-align: center;    
+    text-align: center; 
+    h3 {
+      font: 11px Arial,Helvetica,sans-serif;
+      text-align: center;
+      display: inline-block;
+      width: 440px;
+      padding-top: 10px;
+      margin: 40px 250px 10px 250px;
+      border-top: 1px solid white;
+    }   
   }
 }
 
