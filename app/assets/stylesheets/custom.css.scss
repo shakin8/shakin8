@@ -43,8 +43,8 @@ body{
 /* Footer */
 
 footer{
-  width: 1080px;
-  margin:0px auto;
+  background-size: 100%;
+  margin:0px -70px;
   background-color: $signature-red;
   position: relative;
   bottom: 100px;
@@ -136,8 +136,8 @@ header{
   margin:0px -70px;
   h1 {
     position: relative;
-    bottom: -140px;
-    font: 72px Arial bold,Helvetica,sans-serif;
+    bottom: -160px;
+    font: 58px Arial bold,Helvetica,sans-serif;
     color: $signature-red;
     font-weight: bold;
     text-align: left;
