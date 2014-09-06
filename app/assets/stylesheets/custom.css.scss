@@ -19,9 +19,6 @@ body{
   text-align: center;
   background-color: white;
   margin:0 auto;
-  background-image: image-url('mainbackgroundimagelowquality.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .container {
@@ -42,14 +39,14 @@ body{
 /* Footer */
 
 footer{
-  width: 100%;
+  width: 1080px;
+  margin:0px auto;
   background-color: $signature-red;
   .top-footer{
     background-color: none;
     height: 100px;
     width: 940px;
     padding: 20px;
-    margin-top: 300px;
     color: $signature-dark-grey;
     font: 16px Arial,Helvetica,sans-serif;
     font-weight: bold;
@@ -60,9 +57,8 @@ footer{
   }
   .bottom-footer{
     background-color: white;
-
-    width: 900px;
-    padding: 20px;
+    width: 1080px;
+    margin:0px -80px;
     color: $signature-red;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
@@ -74,6 +70,12 @@ footer{
 
 /* Header */
 
+.header {
+  clear: both;
+  margin: 0 auto;
+  float: left;
+}
+
 header{
   height: 110px;
   width: 940px;
@@ -82,7 +84,7 @@ header{
   padding: 0px 0px 150px 0px;
   border: none;
   .logo{
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100%;
     text-align: center;
   }
@@ -115,3 +117,11 @@ header{
 
 /* Home */
 
+.background-image {
+  width: 1080px;
+  height: 500px;
+  background-image: image-url('mainbackgroundimagelowquality.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+  margin:0px -70px;
+}

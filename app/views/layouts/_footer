@@ -9,8 +9,10 @@
       </ul>
     </div>
     <div class="bottom-footer">
-      <a>shakin'8 incorporates GarnerFendley Business solutions</a><br/><br/>
-      <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "196x50"), "http://garnerfendley.com/" %>
+      <div class="container">
+        <a>shakin'8 incorporates GarnerFendley Business solutions</a><br/><br/>
+        <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "110x30"), "http://garnerfendley.com/" %>
+      </div>
     </div>
   </div>
 </footer>
