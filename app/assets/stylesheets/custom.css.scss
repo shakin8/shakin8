@@ -143,9 +143,8 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin:0px -70px;
+
   h1 {
-    position: relative;
-    bottom: -160px;
     font: 58px Arial bold,Helvetica,sans-serif;
     color: $signature-red;
     font-weight: bold;
@@ -153,4 +152,9 @@ header{
     letter-spacing: -3px;
     line-height: 80%;
   }
+}
+
+.spacer {
+  display: inline-block;
+  height: 420px;
 }
