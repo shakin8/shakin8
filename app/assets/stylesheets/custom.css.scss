@@ -15,9 +15,9 @@ $signature-light-grey: #949494;
 
 body{
   font: 11px Arial,Helvetica,sans-serif;
-  color: white;
+  color: $signature-red;
   text-align: center;
-  background-color: white;
+  background-color: $signature-dark-grey;
   margin:0 auto;
 }
 
@@ -32,6 +32,10 @@ body{
   float: left;
 }
 
+.pull-right{
+  float: right;
+}
+
 .reset-float{
   clear: both;
 }
@@ -42,6 +46,8 @@ footer{
   width: 1080px;
   margin:0px auto;
   background-color: $signature-red;
+  position: relative;
+  bottom: 100px;
   .top-footer{
     background-color: none;
     height: 100px;
@@ -54,12 +60,16 @@ footer{
     li{
       list-style-type: none;
     }
+    .social-media {
+      position: relative;
+      bottom: -50px;
+    }
   }
   .bottom-footer{
     background-color: white;
     width: 1080px;
-    margin:0px -80px;
-    color: $signature-red;
+    margin:0px auto;
+    color: $signature-dark-grey;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
     text-align: center;    
@@ -119,9 +129,9 @@ header{
 
 .background-image {
   width: 1080px;
-  height: 500px;
+  height: 680px;
   background-image: image-url('mainbackgroundimagelowquality.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 140%;
+  background-size: 100% 100%;
   margin:0px -70px;
 }

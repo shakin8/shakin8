@@ -1,18 +1,21 @@
 <footer>
-  <div class="container">
-    <div class="top-footer">
+  <div class="top-footer">
+    <div class="container">
       <ul>
-        <li><a>lorem ipsum</a></li>
-        <li><a>lorem ipsum</a></li>
-        <li><a>lorem ipsum</a></li>
-        <li><a>lorem ipsum</a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
       </ul>
-    </div>
-    <div class="bottom-footer">
-      <div class="container">
-        <a>shakin'8 incorporates GarnerFendley Business solutions</a><br/><br/>
-        <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "110x30"), "http://garnerfendley.com/" %>
+      <div class="social-media pull-right">
+        <%= link_to image_tag("pinterest.png", alt: "Pinterest", size: "60x60"), "http://pinterest.com" %>
+        <%= link_to image_tag("facebook.png", alt: "Facebook", size: "60x60"), "http://facebook.com" %>
+        <%= link_to image_tag("twitter.png", alt: "twitter", size: "60x60"), "http://twitter.com" %>
       </div>
     </div>
+  </div>
+  <div class="bottom-footer">
+      <br/><a>shakin'8 incorporates GarnerFendley Business solutions</a><br/>
+      <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "110x30"), "http://garnerfendley.com/" %>
   </div>
 </footer>
