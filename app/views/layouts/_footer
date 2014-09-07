@@ -1,16 +1,17 @@
 <footer>
   <div class="top-footer">
     <div class="container">
-      <ul>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
+      <ul class="pull-left">
+        <li><a><%= link_to "Services", "#" %></a></li>
+        <li><a><%= link_to "Portfolio ", "#" %></a></li>
+        <li><a><%= link_to "Contact ", "#" %></a></li>
+        <li><a><%= link_to "Login ", "#" %></a></li>
+        <li><a><%= link_to "Site Map ", "#" %></a></li>
       </ul>
       <div class="social-media pull-right">
         <%= link_to image_tag("pinterest.png", alt: "Pinterest", size: "60x60"), "http://pinterest.com" %>
         <%= link_to image_tag("facebook.png", alt: "Facebook", size: "60x60"), "http://facebook.com" %>
-        <%= link_to image_tag("twitter.png", alt: "twitter", size: "60x60"), "http://twitter.com" %>
+        <%= link_to image_tag("twitter.png", alt: "twitter", size: "60x60"), "http://twitter.com/shakin8" %>
       </div>
     </div>
   </div>

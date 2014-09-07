@@ -11,6 +11,13 @@ $signature-light-grey: #949494;
 *{
   margin: 0px;
   padding: 0px;
+  a:hover, a.on {
+    color: $signature-yellow;
+  }
+  a.selected{
+    color: $signature-light-grey;
+  }
+  text-decoration:none;
 }
 
 body{
@@ -46,20 +53,24 @@ footer{
   background-size: 100%;
   margin:0px -70px;
   background-color: $signature-red;
-  position: relative;
-  bottom: 100px;
+
+  a {
+    color: white;
+  }
   .top-footer{
     margin: 0 auto;
     background-color: none;
     height: 100px;
     width: 940px;
     padding: 20px 0px 20px 0px;
-    color: $signature-dark-grey;
+    text-align: left;
+    color: white;
     font: 16px Arial,Helvetica,sans-serif;
     li{
       list-style-type: none;
     }
     .social-media {
+    float: right;
       position: relative;
       bottom: -50px;
     }
@@ -138,14 +149,14 @@ header{
 
 .background-image {
   width: 1080px;
-  height: 680px;
+  height: 560px;
   background-image: image-url('mainbackgroundimagelowquality.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin:0px -70px;
 
   h1 {
-    font: 58px Arial bold,Helvetica,sans-serif;
+    font: 54px Arial bold,Helvetica,sans-serif;
     color: $signature-red;
     font-weight: bold;
     text-align: left;
