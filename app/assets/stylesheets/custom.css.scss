@@ -47,6 +47,45 @@ body{
   clear: both;
 }
 
+/* Buttons */
+
+.button{
+  color: $signature-red;
+  background-color: transparent;
+  border-color: $signature-red;
+  border-style: solid;
+  border-width: 5px;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 0px 10px 0px;
+  font: 22px/1.35 Arial,Helvetica,sans-serif;
+  text-transform:uppercase;
+  height: auto;
+  width: auto;
+  font-weight: bold;
+  letter-spacing: 3px;
+
+}
+
+.button:hover,
+.button:active,
+.button.active,
+.button.disabled,
+.button[disabled] {
+  color: $signature-yellow;
+  border-color: $signature-yellow;
+}
+
+.button:active{
+  background-color: none;
+}
+
+.login-btn {
+  float: right;
+}
+
+/* Buttons End */
+
 /* Footer */
 
 footer{
@@ -97,6 +136,77 @@ footer{
 }
 
 /* Footer end */
+
+/* Forms */
+
+.form-input{
+  border: 2px solid $signature-red;
+  width: 300px;
+  padding: 5px;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font: 12px/1.35 Arial,Helvetica,sans-serif;
+  color: $signature-red;
+}
+
+.form-label{
+  text-align: left;
+  display: inline-block;
+  width: 120px;
+  font: 16px/1.35 Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: $signature-red;
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+}
+
+.login-forms {
+  display: inline-block;
+  width: 440px;
+  margin-top: 25px;
+}
+
+/* Forms End*/
 
 /* Header */
 
