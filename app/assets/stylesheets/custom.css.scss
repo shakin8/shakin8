@@ -47,6 +47,13 @@ body{
   clear: both;
 }
 
+#borderLeft  {
+  border-bottom: 2px solid #f51c40;
+  position: absolute;
+  left: 50%;
+  right: 0;
+}
+
 /* Alerts */
 
 .alert {
