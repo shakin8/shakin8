@@ -287,6 +287,14 @@ header{
     line-height: 80%;
   }
 }
+.tiled-image {
+  width: 1080px;
+  height: 560px;
+  background-image: image-url('honey_im_subtle.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  margin:0px -70px;
+}
 
 .spacer {
   height: 420px;
