@@ -215,7 +215,8 @@ input[type="color"]:focus,
 .login-forms {
   display: inline-block;
   width: 440px;
-  margin-top: 25px;
+  margin-top: 175px;
+
 }
 
 /* Forms End*/
@@ -233,7 +234,7 @@ header{
   width: 940px;
   background-color: none;
   margin: none;
-  padding: 0px 0px 150px 0px;
+  padding: 0px 0px 0px 0px;
   border: none;
   .logo{
     padding-top: 30px;
@@ -299,3 +300,15 @@ header{
 .spacer {
   height: 420px;
 }
+
+/* Pages */
+
+.content-box {
+  padding-top: 200px;
+  text-align: center;
+  img {
+    margin: 70px 20px 0px 20px;
+  }
+}
+
+/* Pages End */
