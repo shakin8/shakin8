@@ -2,10 +2,10 @@
   <div class="top-footer">
     <div class="container">
       <ul class="pull-left">
-        <li><a><%= link_to "Services", "#" %></a></li>
-        <li><a><%= link_to "Portfolio ", "#" %></a></li>
-        <li><a><%= link_to "Contact ", "#" %></a></li>
-        <li><a><%= link_to "Login ", "#" %></a></li>
+        <li><a><%= link_to "Services", services_path %></a></li>
+        <li><a><%= link_to "Portfolio ", portfolio_path %></a></li>
+        <li><a><%= link_to "Contact ", contact_path %></a></li>
+        <li><a><%= link_to "Login ", signin_path %></a></li>
         <li><a><%= link_to "Site Map ", "#" %></a></li>
       </ul>
       <div class="social-media pull-right">
