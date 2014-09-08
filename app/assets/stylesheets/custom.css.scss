@@ -168,6 +168,19 @@ footer{
   font-weight: bold;
 }
 
+.text-input{
+  border: 2px solid $signature-red;
+  width: 300px;
+  padding: 5px;
+  height: 150px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font: 16px/1.35 Arial,Helvetica,sans-serif;
+  color: $signature-red;
+  background: rgba(255,255,255,0.5);
+  font-weight: bold;
+}
+
 .form-label{
   text-align: left;
   display: inline-block;
@@ -224,6 +237,26 @@ input[type="color"]:focus,
   width: 440px;
   margin-top: 175px;
 
+}
+
+.contact-forms {
+  display: inline-block;
+  width: 735px;
+  margin-top: 120px;
+  text-align: left;
+  .form-label {
+    float: left;
+  }
+  .form-input {
+    width: 300px;
+  }
+  .text-input {
+    width: 600px;
+  }
+  .button {
+    font: 18px/1.35 Arial,Helvetica,sans-serif;
+    font-weight: bold;
+  }
 }
 
 /* Forms End*/

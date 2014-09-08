@@ -1,9 +1,20 @@
 <% provide(:title, 'Contact') %>
-<div class="background-image">  
-  <div class="content-box">
-    <h1>Contact</h1>
-    <p>
-      Contact Shakin'8 through any of the channels below.
-    </p>
-  </div>
+<div class="background-image">
+  <div class="contact-forms">
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+      <%= f.label :name, "Full Name:", class: "form-label" %>
+      <%= f.text_field :name, class: "form-input" %>
+      </br>
+      <%= f.label :password, "email:", class: "form-label" %>
+      <%= f.password_field :password, class: "form-input" %>
+      </br>
+      <%= f.label :name, "message:", class: "form-label" %>
+      <%= f.text_area :name, class: "text-input" %>
+     
+      <%= f.submit "Submit", class: "button login-btn" %>
+    
+    <% end %>
+  
+  </div>  
 </div>
