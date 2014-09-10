@@ -5,9 +5,9 @@
         <li><a><%= link_to "Terms and Conditions", termsandconditions_path %></a></li>
         <li><a><%= link_to "Privacy Policy", privacypolicy_path %></a></li>
         <li><a><%= link_to "Site Map ", "#" %></a></li>
-        <li></br></br><p>Company No: 08376934
-© Copyright 2014 All Rights Reserved
-Shakin8 Ltd</p></li>
+        <li></br><p>Company No: 08376934</p>
+          <p>© Copyright 2014 All Rights Reserved Shakin8 Ltd</p>
+        </li>
       </ul>
       <div class="social-media pull-right">
         <%= link_to image_tag("pinterest.png", alt: "Pinterest", size: "60x60"), "http://pinterest.com" %>
@@ -18,7 +18,7 @@ Shakin8 Ltd</p></li>
   </div>
   <div class="bottom-footer">
     <div class="container">
-      <br/><h3>shakin'8 incorporates Garner Fendley Business solutions</h3>
+      <br/><h3>Shakin'8 incorporates Garner Fendley Business solutions</h3>
       <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "110x30"), "http://garnerfendley.com/" %><br/><br/>
     </div>
   </div>
