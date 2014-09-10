@@ -6,7 +6,7 @@
         <li><a><%= link_to "Privacy Policy", privacypolicy_path %></a></li>
         <li><a><%= link_to "Site Map ", "#" %></a></li>
         <li></br><p>Company No: 08376934</p>
-          <p>© Copyright 2014 All Rights Reserved Shakin8 Ltd</p>
+          <p>© Copyright <%= Time.now.year %> All Rights Reserved Shakin8 Ltd</p>
         </li>
       </ul>
       <div class="social-media pull-right">
