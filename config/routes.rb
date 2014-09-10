@@ -15,4 +15,6 @@ SampleApp::Application.routes.draw do
   match '/services',   to: 'static_pages#services',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/portfolio', to: 'static_pages#portfolio', via: 'get'
+  match '/termsandconditions', to: 'static_pages#termsandconditions', via: 'get'
+  match '/privacypolicy', to: 'static_pages#privacypolicy', via: 'get'
 end

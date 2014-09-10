@@ -2,7 +2,8 @@
   <div class="top-footer">
     <div class="container">
       <ul class="pull-left">
-        <li><a><%= link_to "Services", services_path %></a></li>
+        <li><a><%= link_to "Tems and Conditions", termsandconditions_path %></a></li>
+        <li><a><%= link_to "Privacy Policy", privacypolicy_path %></a></li>
         <li><a><%= link_to "Portfolio ", portfolio_path %></a></li>
         <li><a><%= link_to "Contact ", contact_path %></a></li>
         <li><a><%= link_to "Login ", signin_path %></a></li>
