@@ -1,1 +1,2 @@
-Shakin'8 home site
+Shakin'8 homepage
+Technology designs, builds and support
