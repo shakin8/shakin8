@@ -378,5 +378,16 @@ header{
   padding: 250px 0px 107px 0px;
   text-align: center;
 }
+.portfolio-item {
+  text-align: center;
+  display: inline-block;
+  height: 180px;
+  width: 270px;
+  margin: 0px 5px 10px 5px;
+  padding: 5px 5px 5px 5px;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 5px 5px 10px #888888;
+  border: solid 1px $signature-light-grey;
+}
 
 /* Pages End */

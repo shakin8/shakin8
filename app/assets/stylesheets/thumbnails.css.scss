@@ -6,12 +6,12 @@ $signature-light-grey: #949494;
 /* Image Box Style */
 .box {
 /*	cursor: pointer; */
-    margin: 0px 5px 10px 5px;
     display: inline-block;
-	height: 200px;
+	height: 178px;
 	position: relative;
 	overflow: hidden;
-	width: 300px;
+	width: 268px;
+	border: solid 1px $signature-light-grey;
 }
 
 .box img {
@@ -28,7 +28,7 @@ $signature-light-grey: #949494;
 
 /* Caption Common Style */
 .box .caption {
-	background-color: rgba(0,0,0,0.8);
+	background-color: $signature-dark-grey;
 	position: absolute;
 	color: #fff;
 	z-index: 100;
@@ -39,6 +39,10 @@ $signature-light-grey: #949494;
 		transition: all 300ms ease-out;
 	left: 0;
 	top: 0;
+	h3 {
+	  font: 24px Arial,Helvetica,sans-serif;
+	  padding-bottom: 5px;
+	}
 	h3 > a {
       color: white;
     }
@@ -59,7 +63,7 @@ $signature-light-grey: #949494;
 .box .scale-caption h3, .box .scale-caption p {
 	position: relative;
 	left: -200px;
-	width: 170px;
+	width: 90%;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	-o-transition: all 300ms ease-out;
@@ -95,7 +99,7 @@ $signature-light-grey: #949494;
 
 /** Fade Caption :hover Behaviour **/
 .box:hover .fade-caption, .box:hover .scale-caption  {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 /** Scale Caption :hover Behaviour **/
