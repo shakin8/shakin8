@@ -17,6 +17,9 @@ $signature-light-grey: #949494;
   a.selected{
     color: $signature-light-grey;
   }
+  ol {
+    list-style-type: none;
+  }
   text-decoration:none;
 }
 
@@ -369,6 +372,11 @@ header{
   p {
     
   }
+}
+
+.portfolio-main {
+  padding: 250px 0px 107px 0px;
+  text-align: center;
 }
 
 /* Pages End */
