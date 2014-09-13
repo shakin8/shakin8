@@ -17,7 +17,9 @@
     </div>
   </div>
   <div class="bottom-footer">
+
     <div class="container">
+    <%= image_tag("divider.png") %>
       <br/><h3>Shakin'8 incorporates Garner Fendley Business solutions</h3>
       <%= link_to image_tag("garnerfendley_logo_196x50.png", alt: "Rails", size: "110x30"), "http://garnerfendley.com/" %><br/><br/>
     </div>

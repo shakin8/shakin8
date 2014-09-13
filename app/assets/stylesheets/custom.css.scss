@@ -73,7 +73,7 @@ body{
   background-color: transparent;
   border-color: $signature-red;
   border-style: solid;
-  border-width: 5px;
+  border-width: 2px;
   cursor: pointer;
   padding: 10px 15px 10px 15px;
   margin: 0px 0px 10px 0px;
@@ -101,6 +101,7 @@ body{
 
 .login-btn {
   float: right;
+  margin-right: 2px;
 }
 
 /* Buttons End */
@@ -123,7 +124,7 @@ footer{
     background-color: none;
     height: 100px;
     width: 940px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 50px 0px;
     text-align: left;
     color: white;
     font: 16px Arial,Helvetica,sans-serif;
@@ -147,12 +148,12 @@ footer{
     text-align: center; 
     h3 {
       font: 11px Arial,Helvetica,sans-serif;
+      color: $signature-dark-grey;
       text-align: center;
       display: inline-block;
       width: 440px;
-      padding-top: 10px;
-      margin: 10px 250px 10px 250px;
-      border-top: 1px solid white;
+      margin: 0px 250px 10px 250px;
+      
     }   
   }
 }
@@ -257,11 +258,12 @@ input[type="color"]:focus,
     width: 300px;
   }
   .text-input {
-    width: 600px;
+    width: 601px;
   }
   .button {
     font: 18px/1.35 Arial,Helvetica,sans-serif;
     font-weight: bold;
+    margin-right: 1px;
   }
 }
 
@@ -375,7 +377,7 @@ header{
 }
 
 .portfolio-main {
-  padding: 250px 0px 107px 0px;
+  padding: 250px 0px 50px 0px;
   text-align: center;
 }
 .portfolio-item {
@@ -385,9 +387,9 @@ header{
   width: 270px;
   margin: 0px 5px 10px 5px;
   padding: 5px 5px 5px 5px;
-  background: rgba(255,255,255,0.5);
-  box-shadow: 5px 5px 10px #888888;
-  border: solid 1px $signature-light-grey;
+  background: rgba(255,255,255,0.3);
+
+
 }
 
 /* Pages End */
