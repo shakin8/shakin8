@@ -35,8 +35,9 @@ SampleApp::Application.configure do
     :enable_starttls_auto => true,
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => "info.shakin8@gmail.com",
-    :password             => 'H4f129h0',
+    :user_name            => ENV["GMAIL_USERNAME"],
+    :password             => ENV["GMAIL_PASSWORD"],
     :authentication       => "plain",
   }
+
 end
