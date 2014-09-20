@@ -1,16 +1,40 @@
-<div align="center">
-  <h3>Send A message to Us</h3>
+<div class="tiled-image">
+  <div class="container">
+    <div class="contact">
+      <div class="contact-forms">
+        <%= form_for(@contact) do |f| %>
+          <%= f.label :name, "Full Name:", class: "form-label" %>
+          <%= f.text_field :name, class: "form-input" %>
+          <%= f.label :email, "email:", class: "form-label" %>
+          <%= f.text_field :email, class: "form-input" %>
+      </div>
+      <div class="contact-info">
+        <p>
+          Please contact us if you require any additional information on any of our services or would like to request a quote.
+        </p><br/>
+        <p>
+          <b>Shakin8 Ltd.</b><br/>
+          3 Royalty Mansions,
+          Meard Street,<br/>
+          London,
+          W1F 0EH<br/><br/>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class="hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!', :class=> "hidden" %>
+          <b>Telephone Number:</b> +44(0)7922192399<br/>
+          <b>Twitter:</b> @shakin8 / 
+          <b>Facebook:</b> Facebook.com/shakin8</br>
+          <b>Email:</b> info@shakin8.com
+        </p>
+      </div></br>
+          <%= f.label :nmessage, "message:", class: "form-label" %>
+          <%= f.text_area :message, class: "text-input" %>
+          <div class="hidden">
+            <%= f.text_field :nickname, class: "hidden" %>
+          </div>
+          <div>
+            </br>
+            <%= f.submit "Submit", class: "button" %>
+          </div>
+        <% end %>
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "button" %>
-    </div>
-  <% end %>
+  </div>
 </div>

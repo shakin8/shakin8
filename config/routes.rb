@@ -7,7 +7,7 @@ SampleApp::Application.routes.draw do
   resources :sessions,      only: [:new, :create, :destroy]
   resources :microposts,    only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
-  match '/contacts',     to: 'contacts#new',             via: 'get'
+  match '/contact',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
   root to: 'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
@@ -15,7 +15,6 @@ SampleApp::Application.routes.draw do
   match '/signout', to: 'sessions#destroy',     via: 'delete'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/services',   to: 'static_pages#services',   via: 'get'
-  match '/contact', to: 'static_pages#contact', via: 'get'
   match '/portfolio', to: 'static_pages#portfolio', via: 'get'
   match '/termsandconditions', to: 'static_pages#termsandconditions', via: 'get'
   match '/privacypolicy', to: 'static_pages#privacypolicy', via: 'get'

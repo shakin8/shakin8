@@ -179,7 +179,7 @@ footer{
   border: 2px solid $signature-red;
   width: 300px;
   padding: 5px;
-  height: 150px;
+  height: 200px;
   margin-top: 0px;
   margin-bottom: 10px;
   font: 16px/1.35 Arial,Helvetica,sans-serif;
@@ -245,25 +245,42 @@ input[type="color"]:focus,
   margin-top: 175px;
 
 }
-
-.contact-forms {
+.contact {
   display: inline-block;
-  width: 735px;
-  margin-top: 120px;
+  width: 800px;
   text-align: left;
-  .form-label {
-    float: left;
-  }
-  .form-input {
+  margin: 120px 0px 50px 0px;
+  .contact-forms {
+    display: inline-block;
     width: 300px;
+    text-align: left;
+    .form-label {
+      padding-top: 5px;
+    }
+    .form-input {
+      background: rgba(255,255,255,0.2);
+      width: 280px;
+      padding: 10px 10px 10px 10px;
+    }
   }
   .text-input {
-    width: 601px;
+    background: rgba(255,255,255,0.2);
+    width: 780px;
+    padding: 10px 10px 10px 10px;
   }
   .button {
     font: 18px/1.35 Arial,Helvetica,sans-serif;
+    width: 150px;
     font-weight: bold;
-    margin-right: 1px;
+    text-align: center;
+    margin: none;
+  }
+  .contact-info {
+    display: inline-block;
+    width: 416px;
+    text-align: left;
+    vertical-align:top;
+    padding: 25px 0px 0px 80px;
   }
 }
 
