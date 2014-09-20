@@ -20,3 +20,5 @@ doc/
 .rvmrc
 .ruby-*
 .secret
+.env
+Procfile
