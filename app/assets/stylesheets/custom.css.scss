@@ -255,7 +255,7 @@ input[type="color"]:focus,
     width: 300px;
     text-align: left;
     .form-label {
-      padding-top: 5px;
+      padding-top: 10px;
     }
     .form-input {
       background: rgba(255,255,255,0.2);
@@ -280,7 +280,10 @@ input[type="color"]:focus,
     width: 416px;
     text-align: left;
     vertical-align:top;
-    padding: 25px 0px 0px 80px;
+    padding: 30px 0px 0px 80px;
+    p {
+      font: 10px/1.35 Arial,Helvetica,sans-serif;
+    }
   }
 }
 
