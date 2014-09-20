@@ -86,7 +86,6 @@ If the client feels the problem is serious, then they should make a written form
 <p>
 Shakin8 will seek to deal with all complaints as rapidly as possible and will provide updates to the client whilst any problem is solved.
 </p>
-<%= image_tag("pinterest.png", alt: "Pinterest", size: "60x60") %>
     </div>
   </div>
 </div>
