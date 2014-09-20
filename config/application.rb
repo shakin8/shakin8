@@ -27,6 +27,6 @@
         I18n.enforce_available_locales = true
 
         config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-   
+        config.serve_static_assets = true
       end
     end
