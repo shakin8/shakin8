@@ -1,91 +1,91 @@
-
+<% provide(:title, 'Terms and Conditions') %>
 <div class="tiled-image">
   <div class="container">
     <div class="plain-text">
 
-<h1>Terms & Conditions</h1></br>
+		<h1>Terms & Conditions</h1></br>
 
 
-<h3>Definitions</h3></br>
-<p>
-The Client is the company or entity requesting services from Shakin8.
-</p></br>
-<p>
-Shakin8 is employees, directors and partners of Shakin8.
-</p></br>
+		<h3>Definitions</h3></br>
+		<p>
+		The Client is the company or entity requesting services from Shakin8.
+		</p></br>
+		<p>
+		Shakin8 is employees, directors and partners of Shakin8.
+		</p></br>
 
-<h3>General</h3></br>
-<p>
-Shakin8 will carry out work only where an agreement is provided either by email, telephone, mail or fax. An agreement is a written or verbal contract between Shakin8 and the client, which includes telephone and email agreements.
-</p></br>
+		<h3>General</h3></br>
+		<p>
+		Shakin8 will carry out work only where an agreement is provided either by email, telephone, mail or fax. An agreement is a written or verbal contract between Shakin8 and the client, which includes telephone and email agreements.
+		</p></br>
 
-<h3>Software Design</h3></br>
-<p>
-Shakin8 takes pride in its work and will always endeavor to produce websites which work as intended and are constantly available. However Shakin8 cannot guarantee perfect performance and hence cannot accept responsibility for any losses incurred due to malfunction of the website.
-The website, graphics and any other work remain the property of Shakin8 until all outstanding accounts are paid in full.</p>
-<p></br>
-Shakin8 retain intellectual property rights over all work it produces. Any website code, scripts, cgi applications or other software written by Shakin8 remain the copyright of Shakin8 and may only be reused with the permission of Shakin8.
-Shakin8 cannot take responsibility for any copyright infringements caused by materials submitted by the client. We reserve the right to refuse any material of a copyrighted nature unless adequate proof is given of permission to use such material.
-Any additions to briefs provided will be carried out at the discretion of Shakin8 and where no charge is made by Shakin8 for such additions, Shakin8 accept no responsibility to ensure such additions are error free and reserve the right to charge an according amount for any correction to these or further additions.
-The client agrees to make available as soon as is reasonably possible to Shakin8 all materials required to complete the site to the agreed standard and within the set deadline.
-</p></br>
-<p>
-Shakin8 will not be liable for costs incurred, compensation or loss of earnings due to the failure to meet agreed deadlines although every effort will be made to meet such deadlines.
-</p></br>
-<p>
-Shakin8 will not be liable or become involved in any disputes between the site owner and their clients and cannot be held responsible for any wrongdoing on the part of a site owner, eg. any disputes ref content/images that have been provided to us for inclusion on the site.
-</p></br>
-<p>
-Shakin8 will not be liable for any costs incurred, compensation or loss of earnings due to the work carried out on behalf of the client or any of the clients appointed agents.
-</p></br>
-<p>
-Shakin8 will not be liable for any costs incurred, compensation or loss of earnings due to the unavailability of the website, its servers or software.
-</p></br>
-<p>
-Shakin8 reserves the right to request a deposit before commencing work. The precise amount will be stated on the quotation.
-</p></br>
-Once a website has been designed and completed the final balance of payment is then due in accordance with our payment terms. There are no exceptions to this, i.e if the client decides they no longer want the site, as they have commissioned the work and paid a deposit they are still obliged to pay for the work that has been done. Non payment will result in legal action being taken if necessary.
-</p></br>
+		<h3>Software Design</h3></br>
+		<p>
+		Shakin8 takes pride in its work and will always endeavor to produce websites which work as intended and are constantly available. However Shakin8 cannot guarantee perfect performance and hence cannot accept responsibility for any losses incurred due to malfunction of the website.
+		The website, graphics and any other work remain the property of Shakin8 until all outstanding accounts are paid in full.</p>
+		<p></br>
+		Shakin8 retain intellectual property rights over all work it produces. Any website code, scripts, cgi applications or other software written by Shakin8 remain the copyright of Shakin8 and may only be reused with the permission of Shakin8.
+		Shakin8 cannot take responsibility for any copyright infringements caused by materials submitted by the client. We reserve the right to refuse any material of a copyrighted nature unless adequate proof is given of permission to use such material.
+		Any additions to briefs provided will be carried out at the discretion of Shakin8 and where no charge is made by Shakin8 for such additions, Shakin8 accept no responsibility to ensure such additions are error free and reserve the right to charge an according amount for any correction to these or further additions.
+		The client agrees to make available as soon as is reasonably possible to Shakin8 all materials required to complete the site to the agreed standard and within the set deadline.
+		</p></br>
+		<p>
+		Shakin8 will not be liable for costs incurred, compensation or loss of earnings due to the failure to meet agreed deadlines although every effort will be made to meet such deadlines.
+		</p></br>
+		<p>
+		Shakin8 will not be liable or become involved in any disputes between the site owner and their clients and cannot be held responsible for any wrongdoing on the part of a site owner, eg. any disputes ref content/images that have been provided to us for inclusion on the site.
+		</p></br>
+		<p>
+		Shakin8 will not be liable for any costs incurred, compensation or loss of earnings due to the work carried out on behalf of the client or any of the clients appointed agents.
+		</p></br>
+		<p>
+		Shakin8 will not be liable for any costs incurred, compensation or loss of earnings due to the unavailability of the website, its servers or software.
+		</p></br>
+		<p>
+		Shakin8 reserves the right to request a deposit before commencing work. The precise amount will be stated on the quotation.
+		</p></br>
+		Once a website has been designed and completed the final balance of payment is then due in accordance with our payment terms. There are no exceptions to this, i.e if the client decides they no longer want the site, as they have commissioned the work and paid a deposit they are still obliged to pay for the work that has been done. Non payment will result in legal action being taken if necessary.
+		</p></br>
 
-<h3>Database, Application and E-Commerce Development</h3></br>
-<p>
-Shakin8 cannot take responsibility for any losses incurred by the use of any software created for the client. Whilst every care has been taken to ensure products are problem free and accurate, the ultimate responsibility lies with the client in ensuring that all software is functioning correctly before use.
-</p></br>
+		<h3>Database, Application and E-Commerce Development</h3></br>
+		<p>
+		Shakin8 cannot take responsibility for any losses incurred by the use of any software created for the client. Whilst every care has been taken to ensure products are problem free and accurate, the ultimate responsibility lies with the client in ensuring that all software is functioning correctly before use.
+		</p></br>
 
-<p>
-The client is expected to fully test any application or programming relating to a site developed by Shakin8 before being made generally available for use. Where "bugs", errors or other issues are found after the site is live, Shakin8 will endeavor (but is not obliged to) to correct these issues to meet the standards of function outlined in the brief.
-</p></br>
+		<p>
+		The client is expected to fully test any application or programming relating to a site developed by Shakin8 before being made generally available for use. Where "bugs", errors or other issues are found after the site is live, Shakin8 will endeavor (but is not obliged to) to correct these issues to meet the standards of function outlined in the brief.
+		</p></br>
 
-<h3>Compatibility</h3></br>
-<p>
-Shakin8 will endeavor to ensure that any developed/designed site or application will function correctly on the server on which it is originally delivered. The website will be checked for compatibility with the latest versions of Internet Explorer, Firefox, Safari and Opera. Compatibility with other browsers cannot be guaranteed.
-</p></br>
+		<h3>Compatibility</h3></br>
+		<p>
+		Shakin8 will endeavor to ensure that any developed/designed site or application will function correctly on the server on which it is originally delivered. The website will be checked for compatibility with the latest versions of Internet Explorer, Firefox, Safari and Opera. Compatibility with other browsers cannot be guaranteed.
+		</p></br>
 
-<h3>Website Hosting and Email</h3></br>
-<p>
-Shakin8 uses high quality hosting services but no guarantees can be made as to the availability of these services. Shakin8 cannot accept liability for losses caused by the unavailability, malfunction or interruption of these services, or for loss of turnover, sales, revenue, profits or indirect, consequential or special loss.
-Shakin8 reserve the right to refuse to handle in any way, material which may be deemed offensive, illegal or in any way controversial.
-</p></br>
+		<h3>Website Hosting and Email</h3></br>
+		<p>
+		Shakin8 uses high quality hosting services but no guarantees can be made as to the availability of these services. Shakin8 cannot accept liability for losses caused by the unavailability, malfunction or interruption of these services, or for loss of turnover, sales, revenue, profits or indirect, consequential or special loss.
+		Shakin8 reserve the right to refuse to handle in any way, material which may be deemed offensive, illegal or in any way controversial.
+		</p></br>
 
-<h3>Payment of Accounts</h3></br>
-<p>
-A deposit may be required from any client before any work is carried out. The amount will be specified in the quotation. It is the Shakin8 policy that any outstanding accounts for work carried out by Shakin8 are required to be paid in full, no later than 30 days from the date of the invoice unless by prior arrangement with Shakin8.
-Once a deposit is paid and work completed you are obliged to pay the balance of payment in full. We will contact clients via email and telephone to remind them of such payments if they are not received when due.
-</p></br>
-<p>
-In most cases there will be an initial charge for the work in creating and deploying the website. Thereafter a monthly or annual hosting and support charge will be made at a rate determined in the quotation. Shakin8 may review this amount in the light of inflation, change in nature of website, or other factors.
-If accounts are not settled or Shakin8 have not been contacted regarding the delay, access to the related website may be denied and web pages removed. If agreement cannot be reached, Shakin8 may then pursue the debt via our solicitors.
-</p></br>
+		<h3>Payment of Accounts</h3></br>
+		<p>
+		A deposit may be required from any client before any work is carried out. The amount will be specified in the quotation. It is the Shakin8 policy that any outstanding accounts for work carried out by Shakin8 are required to be paid in full, no later than 30 days from the date of the invoice unless by prior arrangement with Shakin8.
+		Once a deposit is paid and work completed you are obliged to pay the balance of payment in full. We will contact clients via email and telephone to remind them of such payments if they are not received when due.
+		</p></br>
+		<p>
+		In most cases there will be an initial charge for the work in creating and deploying the website. Thereafter a monthly or annual hosting and support charge will be made at a rate determined in the quotation. Shakin8 may review this amount in the light of inflation, change in nature of website, or other factors.
+		If accounts are not settled or Shakin8 have not been contacted regarding the delay, access to the related website may be denied and web pages removed. If agreement cannot be reached, Shakin8 may then pursue the debt via our solicitors.
+		</p></br>
 
 
-<h3>Complaints Procedure</h3></br>
-<p>
-Should there be a problem with any of the services provided by Shakin8, the client should raise this with their normal contact who will seek to remedy the problem.
-If the client feels the problem is serious, then they should make a written formal complaint to the address on the Shakin8 website.
-</p></br>
-<p>
-Shakin8 will seek to deal with all complaints as rapidly as possible and will provide updates to the client whilst any problem is solved.
-</p>
+		<h3>Complaints Procedure</h3></br>
+		<p>
+		Should there be a problem with any of the services provided by Shakin8, the client should raise this with their normal contact who will seek to remedy the problem.
+		If the client feels the problem is serious, then they should make a written formal complaint to the address on the Shakin8 website.
+		</p></br>
+		<p>
+		Shakin8 will seek to deal with all complaints as rapidly as possible and will provide updates to the client whilst any problem is solved.
+		</p>
     </div>
   </div>
 </div>

@@ -13,7 +13,6 @@ SampleApp::Application.routes.draw do
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
-  match '/help',    to: 'static_pages#help',    via: 'get'
   match '/services',   to: 'static_pages#services',   via: 'get'
   match '/portfolio', to: 'static_pages#portfolio', via: 'get'
   match '/termsandconditions', to: 'static_pages#termsandconditions', via: 'get'
