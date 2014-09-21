@@ -8,8 +8,9 @@ class ContactsController < ApplicationController
     @contact.request = request
     if @contact.deliver
       flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
+      render :new
     else
-      flash.now[:error] = 'Something went wrong. Try again or contact us directly.'
+      flash.now[:error] = 'Something went wrong. Please try again or contact us directly.'
       render :new
     end
   end

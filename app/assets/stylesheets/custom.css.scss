@@ -60,9 +60,54 @@ body{
 /* Alerts */
 
 .alert {
+  width: 800px;
   font: 22px/1.35 Arial,Helvetica,sans-serif;
-  background: rgba(150, 39, 59, 0.3);
+  background: rgba(150, 39, 59, 0.4);
+  color: $signature-red;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  margin-left: -400px;
 }
+
+.alert-error {
+
+}
+
+.alert-alert {
+  
+}
+
+.alert-success {
+  background: rgba(233, 240, 216, 0.4);
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
+.alert-notice {
+  background: rgba(233, 240, 216, 0.4);
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
+.alert-error {
+
+}
+
+.alert-success {
+  color: #468847;
+  background: rgba(233, 240, 216, 0.4);
+  border-color: #d6e9c6;
+}
+
+.alert-danger,
+.alert-error {
+
+}
+
+.alert-info {
+}
+
 
 /* Alerts End */
 
@@ -424,32 +469,3 @@ header{
 
 
 
-/*flash*/
-
-.alert-error {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
-
-.alert-alert {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
-
-.alert-success {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}
-
-.alert-notice {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}

@@ -1,8 +1,12 @@
-<div>
-  <% flash.each do |key, value| %>
-    <div>
-      <a href="#" data-dismiss="alert">×</a>
-        <%= value %>
+<div class="tiled-image">
+  <div class="container">
+    <div class="contact">
+	  <% flash.each do |key, value| %>
+	    <div>
+	      <a href="#" data-dismiss="alert">×</a>
+	        <%= value %>
+	    </div>
+	  <% end %>
     </div>
-  <% end %>
+  </div>
 </div>
