@@ -185,8 +185,6 @@ footer{
   .bottom-footer{
     margin: 0 auto;
     background-color: $signature-red;
-    width: 1080px;
-    margin:0px auto;
     color: white;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
@@ -294,7 +292,7 @@ input[type="color"]:focus,
   display: inline-block;
   width: 800px;
   text-align: left;
-  margin: 120px 0px 50px 0px;
+  margin: 140px 0px 50px 0px;
   .contact-forms {
     display: inline-block;
     width: 300px;
@@ -414,7 +412,89 @@ header{
   height: 420px;
 }
 
+.mid-section {
+  background-size: 100%;
+  margin:0px -70px;
+  background-color: $signature-red;
+  height: 100px;
+}
+
+.home-infographic {
+  margin: none;
+  padding: 50px 0px 50px 0px;
+  border: none;
+  .home-column {
+    vertical-align: top;
+    display: inline-block;
+    width: 345px;
+    p {
+      padding: 20px;
+      font: 22px Arial,Helvetica,sans-serif;
+      font-weight: bold;
+    }
+    img {
+      display: inline-block;
+    }
+  }
+  #plan-image {
+    position: relative;
+    top: 100px;
+  }
+  .home-centre-column {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    width: 242px;
+    text-align: center;
+    img {
+      text-align: center;
+    }
+    h3 {
+      display: inline;
+      font: 22px Arial,Helvetica,sans-serif;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      bottom: 15px;
+    }
+    h1 {
+      display: inline;
+      font: 42px Arial bold,Helvetica,sans-serif;
+      color: $signature-red;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  .chevron {
+    display: inline-block;
+    width: 242px;
+    position: relative;
+    top: 20px;
+  }
+
+  #border-bottom {
+    border-bottom: 4px solid $signature-red;
+    width: 325px;
+    margin: 40px 10px 40px 10px;
+  }
+}
+
+/* Home end */
+
 /* Pages */
+
+.plain-text {
+  text-align: left;
+  padding: 240px 0px 30px 0px;
+  height: auto;
+  h3 {
+    
+  }
+  p {
+    
+  }
+}
 
 .content-box {
   padding: 200px 0px 107px 0px;
@@ -426,18 +506,6 @@ header{
     display: inline-block;
     width: 160px;
     margin: 10px 0px 0px 0px;
-  }
-}
-
-.plain-text {
-  text-align: left;
-  padding: 240px 0px 30px 0px;
-  height: auto;
-  h3 {
-    
-  }
-  p {
-    
   }
 }
 
@@ -453,8 +521,6 @@ header{
   margin: 0px 5px 10px 5px;
   padding: 5px 5px 5px 5px;
   background: rgba(255,255,255,0.3);
-
-
 }
 
 /* Pages End */
