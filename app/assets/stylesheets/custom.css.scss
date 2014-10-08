@@ -429,8 +429,9 @@ header{
     width: 345px;
     p {
       padding: 20px;
-      font: 22px Arial,Helvetica,sans-serif;
+      font: 14px Arial,Helvetica,sans-serif;
       font-weight: bold;
+      text-align: left;
     }
     img {
       display: inline-block;
@@ -438,7 +439,7 @@ header{
   }
   #plan-image {
     position: relative;
-    top: 100px;
+    top: 90px;
   }
   .home-centre-column {
     position: relative;
