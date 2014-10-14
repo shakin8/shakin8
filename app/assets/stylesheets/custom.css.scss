@@ -5,6 +5,7 @@ $signature-red: #96273B;
 $signature-yellow: #CEA137;
 $signature-dark-grey: #434343;
 $signature-light-grey: #949494;
+$signature-gold: #D1CDBC;
 
 /* custom colours end  */
 
@@ -154,12 +155,14 @@ body{
 /* Footer */
 
 footer{
+  border-top: 6px solid $signature-gold;
+  border-bottom: 6px solid $signature-gold;
   background-size: 100%;
   margin:0px -70px;
   background-color: $signature-red;
 
   a {
-    color: white;
+    color: $signature-gold;
   }
   p {
     font: 12px Arial,Helvetica,sans-serif;
@@ -171,7 +174,7 @@ footer{
     width: 940px;
     padding: 20px 0px 50px 0px;
     text-align: left;
-    color: white;
+    color: $signature-gold;
     font: 16px Arial,Helvetica,sans-serif;
     li{
       list-style-type: none;
@@ -181,11 +184,14 @@ footer{
       position: relative;
       bottom: -50px;
     }
+    img {
+      margin-left: 15px;
+    }
   }
   .bottom-footer{
     margin: 0 auto;
     background-color: $signature-red;
-    color: white;
+    color: $signature-gold;
     font: 11px Arial,Helvetica,sans-serif;
     font-weight: bold;
     text-align: center; 
@@ -196,7 +202,6 @@ footer{
       display: inline-block;
       width: 440px;
       margin: 0px 250px 10px 250px;
-      
     }   
   }
 }
@@ -351,6 +356,7 @@ header{
     padding-top: 30px;
     width: 100%;
     text-align: center;
+    border: none;
   }
 }
 
@@ -416,7 +422,33 @@ header{
   background-size: 100%;
   margin:0px -70px;
   background-color: $signature-red;
-  height: 100px;
+  padding: 15px 0px 15px 0px;
+  border-top: 5px solid $signature-gold;
+  border-bottom: 5px solid $signature-gold;
+  h1 {
+    font: 26px Arial bold,Helvetica,sans-serif;
+    color: $signature-gold;
+    font-weight: bold;
+    text-align: left;  
+    letter-spacing: 1px;
+  }
+  p {
+    font: 14px Arial bold,Helvetica,sans-serif;
+    color: $signature-gold;
+    font-weight: regular; 
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  #left-border {
+    padding-left: 8px;
+    border-left: 2px solid $signature-gold;
+    line-height: 2px;
+  }
+  strong {
+    background-color: $signature-gold;
+    padding: 0px 3px 0px 3px;
+    color: $signature-red;
+  }
 }
 
 .home-infographic {
@@ -489,12 +521,6 @@ header{
   text-align: left;
   padding: 240px 0px 30px 0px;
   height: auto;
-  h3 {
-    
-  }
-  p {
-    
-  }
 }
 
 .content-box {

@@ -9,9 +9,9 @@
         </li>
       </ul>
       <div class="social-media pull-right">
-        <%= link_to image_tag("pinterest.png", alt: "Pinterest", size: "60x60"), "http://pinterest.com" %>
-        <%= link_to image_tag("facebook.png", alt: "Facebook", size: "60x60"), "http://facebook.com" %>
-        <%= link_to image_tag("twitter.png", alt: "twitter", size: "60x60"), "http://twitter.com/shakin8" %>
+        <%= link_to image_tag("pinterest.png", alt: "Pinterest", size: "50x50"), "http://pinterest.com" %>
+        <%= link_to image_tag("facebook.png", alt: "Facebook", size: "50x50"), "http://facebook.com" %>
+        <%= link_to image_tag("twitter.png", alt: "twitter", size: "50x50"), "http://twitter.com/shakin8" %>
       </div>
     </div>
   </div>
