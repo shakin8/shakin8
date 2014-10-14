@@ -390,19 +390,35 @@ header{
 
 .background-image {
   width: 1080px;
-  height: 560px;
+  height: 520px;
   background-image: image-url('mainbackgroundimagelowquality.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin:0px -70px;
 
   h1 {
-    font: 54px Arial bold,Helvetica,sans-serif;
+    font: 26px Arial bold,Helvetica,sans-serif;
     color: $signature-red;
-    font-weight: bold;
+    font-weight: regular;
+    text-align: left;  
+    letter-spacing: 0px;
+  }
+  p {
+    font: 14px Arial bold,Helvetica,sans-serif;
+    color: $signature-red;
+    font-weight: regular; 
     text-align: left;
-    letter-spacing: -3px;
-    line-height: 80%;
+    letter-spacing: 0px;
+  }
+  #left-border {
+    padding-left: 8px;
+    border-left: 2px solid $signature-red;
+    line-height: 2px;
+  }
+  strong {
+    background-color: $signature-red;
+    padding: 0px 3px 0px 3px;
+    color: #A49799;
   }
 }
 .tiled-image {
@@ -415,20 +431,20 @@ header{
 }
 
 .spacer {
-  height: 420px;
+  height: 410px;
 }
 
 .mid-section {
   background-size: 100%;
   margin:0px -70px;
   background-color: $signature-red;
-  padding: 15px 0px 15px 0px;
-  border-top: 5px solid $signature-gold;
+  padding: 1px;
+  border-top: 5px solid $signature-red;
   border-bottom: 5px solid $signature-gold;
   h1 {
     font: 26px Arial bold,Helvetica,sans-serif;
     color: $signature-gold;
-    font-weight: bold;
+    font-weight: regular;
     text-align: left;  
     letter-spacing: 1px;
   }
@@ -451,9 +467,12 @@ header{
   }
 }
 
+#pad-right {
+  padding-right: 0px;
+}
 .home-infographic {
   margin: none;
-  padding: 50px 0px 50px 0px;
+  padding: 30px 0px 50px 0px;
   border: none;
   .home-column {
     vertical-align: top;
