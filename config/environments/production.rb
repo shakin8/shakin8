@@ -97,4 +97,7 @@ SampleApp::Application.configure do
     authentication: "plain"
   }
 
+  config.serve_static_assets = true
+  config.assets.compile = true
+
 end
