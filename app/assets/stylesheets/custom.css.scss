@@ -12,6 +12,12 @@ $signature-gold: #D1CDBC;
 *{
   margin: 0px;
   padding: 0px;
+  a {
+    outline: none;
+    img{ 
+      outline: none;
+    }
+  }
   a:hover, a.on {
     color: $signature-yellow;
   }
@@ -20,6 +26,9 @@ $signature-gold: #D1CDBC;
   }
   ol {
     list-style-type: none;
+  }
+  img { 
+    border: none
   }
   text-decoration:none;
 }
