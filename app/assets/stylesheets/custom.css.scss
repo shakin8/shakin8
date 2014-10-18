@@ -487,6 +487,15 @@ header{
       font: 14px Arial,Helvetica,sans-serif;
       text-align: left;
     }
+    ul {
+      padding: 10px 20px 0px 20px;
+    }
+    li {
+      list-style-position: inside;
+      list-style-type: square;
+      font: 14px Arial,Helvetica,sans-serif;
+      text-align: left;    
+    }
     .speech {
       text-align: center;
       margin: 30px 15px 0px 15px;
@@ -494,7 +503,7 @@ header{
       position: relative;
       width: 285px;
       height: 40px;
-      background-color: $signature-gold;
+      background-color: rgba($signature-gold, 0.7);
       -webkit-border-radius: 20px;
       -moz-border-radius: 20px;
       border-radius: 20px;
@@ -506,10 +515,10 @@ header{
       height: 0;
       right: 50px;
       top: -30px;
-      border: 25px solid;
+      border: 20px solid;
       border-right-width: 40px;
-      border-bottom-width: 16px;
-      border-color: transparent $signature-gold $signature-gold transparent;
+      border-bottom-width: 10px;
+      border-color: transparent rgba($signature-gold, 0.7) rgba($signature-gold, 0.7) transparent;
     }
     img {
       display: inline-block;
