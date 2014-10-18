@@ -19,7 +19,7 @@ $signature-gold: #D1CDBC;
     }
   }
   a:hover, a.on {
-    color: $signature-yellow;
+    color: $signature-gold;
   }
   a.selected{
     color: $signature-light-grey;
@@ -146,8 +146,8 @@ body{
 .button.active,
 .button.disabled,
 .button[disabled] {
-  color: $signature-yellow;
-  border-color: $signature-yellow;
+  color: $signature-gold;
+  border-color: $signature-gold;
 }
 
 .button:active{
@@ -381,7 +381,7 @@ header{
     font-weight: normal;
   }
   a:hover, a.on {
-    color: $signature-yellow;
+    color: $signature-gold;
   }
   a.selected{
     color: $signature-light-grey;
@@ -624,7 +624,7 @@ header{
   width: 270px;
   margin: 0px 5px 10px 5px;
   padding: 5px 5px 5px 5px;
-  background: rgba(255,255,255,0.3);
+  background: rgba($signature-gold,0.4);
 }
 
 /* Pages End */
