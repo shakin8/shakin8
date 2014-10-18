@@ -525,10 +525,20 @@ header{
     top: 20px;
   }
 
+  .more {
+    margin: 0px 10px 0px 10px;
+    text-align: right;
+  }
+
+  #more {
+    position: relative;
+    bottom: 15px;
+  }
+
   #border-bottom {
     border-bottom: 4px solid $signature-red;
     width: 325px;
-    margin: 40px 10px 40px 10px;
+    margin: 40px 10px 00px 10px;
   }
 }
 
