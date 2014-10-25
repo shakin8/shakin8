@@ -355,6 +355,7 @@ input[type="color"]:focus,
 }
 
 header{
+z-index: 99;
   height: 110px;
   width: 940px;
   background-color: none;
@@ -640,4 +641,40 @@ header{
 
 
 
+
+
+
+
+
+
+.section {        
+    position:relative;
+    z-index:1;
+    height:500px;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.content {
+    position:relative;
+    z-index:2;   
+    height:50%;    /* this height difference allows the bg to show through */    
+}
+.section#title-gap {
+    background-color: none;
+    height: 250px;
+}
+.section#s1 {    
+    background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
+}
+.section#s2 {
+    background-color: none;
+}
+.section#s3 {    
+    background-color: rgba($signature-red, 0.5);;
+}
+.section#s4 {    
+    background-color: rgba($signature-gold, 0.5);
+}
 
