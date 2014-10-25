@@ -666,15 +666,15 @@ z-index: 99;
     height: 250px;
 }
 .section#s1 {    
-    background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
-}
-.section#s2 {
     background-color: none;
 }
+.section#s2 {
+    background-color: rgba($signature-red, 0.75);;
+}
 .section#s3 {    
-    background-color: rgba($signature-red, 0.5);;
+    background-color: rgba($signature-gold, 0.75);
 }
 .section#s4 {    
-    background-color: rgba($signature-gold, 0.5);
+    background-color: rgba($signature-dark-grey, 0.75);
 }
 
