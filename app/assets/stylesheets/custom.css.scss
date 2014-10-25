@@ -400,13 +400,13 @@ z-index: 99;
 
 .home-image {
   width: 1080px;
-  height: 520px;
+  height: 580px;
   background-image: image-url('mainbackgroundimagelowquality.jpg');
   background-repeat: no-repeat;
   background-size: 1080px 520px;
-  margin:0px -70px;
-  background-position: 227px 0px;
-  background-attachment: fixed;
+  position: fixed;
+  margin: 0 -70px;
+  z-index: -2;
 }
 
 .background-image {
