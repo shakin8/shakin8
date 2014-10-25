@@ -402,10 +402,10 @@ header{
   height: 520px;
   background-image: image-url('mainbackgroundimagelowquality.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 1080px 520px;
-  background-position: 227px 0px;
   margin:0px -70px;
+  background-position: 227px 0px;
+  background-attachment: fixed;
 
   h1 {
     font: 26px Arial bold,Helvetica,sans-serif;
@@ -434,13 +434,11 @@ header{
 }
 .tiled-image {
   width: 1080px;
-
   background-image: image-url('honey_im_subtle.png');
   background-repeat: repeat;
   background-size: 200px 150px;
   margin:0px -70px;
   background-attachment: fixed;
-  background-position: 227px 0px;
 }
 
 .spacer {
