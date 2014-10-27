@@ -9,7 +9,8 @@ SampleApp::Application.routes.draw do
   resources :relationships, only: [:create, :destroy]
   match '/contact',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
-  root to: 'static_pages#home'
+  match '/shakin8', to: 'static_pages#home',    via: 'get'
+  root to: 'static_pages#comingsoon'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'

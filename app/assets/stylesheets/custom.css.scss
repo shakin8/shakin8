@@ -355,7 +355,7 @@ input[type="color"]:focus,
 }
 
 header{
-z-index: 99;
+  z-index: 99;
   height: 110px;
   width: 940px;
   background-color: none;
@@ -447,7 +447,7 @@ z-index: 99;
   height: 410px;
 }
 .spacer-small {
-  height: 250px;
+  height: 200px;
 }
 
 .mid-section {
@@ -725,7 +725,7 @@ z-index: 99;
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
+    background: rgba(102,204,102, 0.2);
   }
 
   #group2 {
@@ -783,3 +783,8 @@ z-index: 99;
     width: 100%;
   }
 
+#coming-soon {
+  font: 11px Arial,Helvetica,sans-serif;
+  letter-spacing: 4px;
+  line-height: 20px;
+}
