@@ -649,7 +649,7 @@ header{
 
 
 .parallax {
-  height: 500px; /* fallback for older browsers */
+  height: 450px; /* fallback for older browsers */
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-perspective: 300px;
@@ -662,8 +662,7 @@ header{
 
 .parallax__group {
   position: relative;
-  height: 500px; /* fallback for older browsers */
-
+  height: 450px; /* fallback for older browsers */
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -755,75 +754,7 @@ header{
 }
 
 
-/* style the groups
---------------------------------------------- */
 
-#group1 {
-  z-index: 5; /* slide over group 2 */
-}
-#group1 .parallax__layer--base {
-  background: rgba(200,204,102, 0.2);
-}
-
-#group2 {
-  z-index: 3; /* slide under groups 1 and 3 */
-}
-#group2 .parallax__layer--back {
-  background: rgb(123,210,102);
-}
-
-#group3 {
-  z-index: 4; /* slide over group 2 and 4 */
-}
-#group3 .parallax__layer--base {
-  background: rgb(153,216,101);
-  float: left;
-}
-
-#group4 {
-  z-index: 2; /* slide under group 3 and 5 */
-}
-#group4 .parallax__layer--deep {
-  background: rgb(184,223,101);
-}
-
-#group5 {
-  z-index: 3; /* slide over group 4 and 6 */
-}
-#group5 .parallax__layer--base {
-  background: rgb(214,229,100);
-}
-
-#group6 {
-  z-index: 2; /* slide under group 5 and 7 */
-}
-#group6 .parallax__layer--back {
-  background: rgb(245,235,100);
-}
-
-#group7 {
-  z-index: 3; /* slide over group 7 */
-}
-#group7 .parallax__layer--base {
-  background: rgb(255,241,100);
-}
-
-
-#parallax-text {
-  z-index: 3; /* slide over group 7 */
-}
-#group7 .parallax__layer--base {
-  background: rgb(255,241,100);
-}
-
-
-
-#parallax-text {
-  z-index: 2; /* slide under group 3 and 5 */
-}
-#parallax-text .parallax__layer--deep {
-  background: rgb(184,223,101);
-}
 
 
 
