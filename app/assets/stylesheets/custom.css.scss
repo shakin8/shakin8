@@ -739,6 +739,22 @@ header{
   z-index: 2;
 }
 
+.parallax-image {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-160%, -50%);
+  transform: translate(-160%, -50%);
+  text-align: left;
+}
+
+.parallax__layer--image {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
 
 /* style the groups
 --------------------------------------------- */
