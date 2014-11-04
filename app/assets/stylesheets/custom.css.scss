@@ -710,7 +710,7 @@ header{
   position: absolute;
   left: 50%;
   top: 20%;
-  -webkit-transform: translate(-20%, -50%);
+  -webkit-transform: translate(20%, -50%);
   transform: translate(10%, -50%);
   Font-weight: bold;
 }
@@ -740,7 +740,6 @@ header{
 }
 
 .parallax-image {
-  text-align: center;
   position: absolute;
   left: 50%;
   top: 50%;

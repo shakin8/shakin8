@@ -4,6 +4,7 @@
 
 
 <div class="parallax">
+  <input type="button" onClick="document.getElementById('design').scrollIntoView();" />
     <div id="parallax-text" class="parallax__group">
       <div class="parallax__layer parallax__layer--fore">
         <div class="title">METRICS & REPORTING</div>
@@ -18,9 +19,9 @@
         <div class="parallax-image"><%= image_tag("services/marketing300x300.png", alt: "services - Marketing and SEO", size: "250x250") %></div>
       </div>
     </div>
-
+    
     <div id="parallax-text" class="parallax__group">
-      <div class="parallax__layer parallax__layer--fore">
+      <div id="design" class="parallax__layer parallax__layer--fore">
         <div class="title">METRICS & REPORTING</div>
       </div>
       <div class="parallax__layer parallax__layer--base">
