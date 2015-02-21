@@ -644,8 +644,34 @@ header{
 
 
 .the-team {
-  padding: 250px 0px 50px 0px;
-  text-align: center;
+  width: 940px;
+  padding: 250px 0px 10px 0px;
+  text-align: left;
+  .team-profile {
+    width: 940px;
+    margin-bottom:50px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 20px solid $signature-red;
+  }
+  img {
+    display: inline-block;
+    position: relative; bottom: -25px; 
+    padding: none;
+    margin: none;
+  }
+  .bio {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid $signature-red;
+    margin-left: 10px;
+    h1 {
+      display: inline-block;
+    }
+  }
+
 }
 
 
