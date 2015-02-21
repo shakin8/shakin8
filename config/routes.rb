@@ -18,4 +18,5 @@ SampleApp::Application.routes.draw do
   match '/portfolio', to: 'static_pages#portfolio', via: 'get'
   match '/termsandconditions', to: 'static_pages#termsandconditions', via: 'get'
   match '/privacypolicy', to: 'static_pages#privacypolicy', via: 'get'
+  match '/theteam', to: 'static_pages#theteam', via: 'get'
 end

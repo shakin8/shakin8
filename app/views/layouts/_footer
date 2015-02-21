@@ -3,7 +3,8 @@
     <div class="container">
       <ul class="pull-left">
         <li><a><%= link_to "Terms and Conditions", termsandconditions_path %></a></li>
-        <li><a><%= link_to "Privacy Policy", privacypolicy_path %></a></li></br>
+        <li><a><%= link_to "Privacy Policy", privacypolicy_path %></a></li>
+        <li><a><%= link_to "The Team", theteam_path %></a></li></br>
         <li></br><p>Company No: 08376934</p>
           <p>© Copyright <%= Time.now.year %> All Rights Reserved Shakin8 Ltd</p>
         </li>
